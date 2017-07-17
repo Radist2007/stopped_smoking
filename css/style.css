@@ -1,0 +1,81 @@
+html, body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: rebeccapurple;
+  padding: 10px auto;
+}
+
+/* .header #shop_ip {
+  padding: 40px 100px;
+  margin: 50px;
+  font-size: 20px;
+}
+
+.wraper {
+  text-align: center;
+  color: yellow;
+}
+
+.question {
+  background-color: greenyellow;
+}
+.faq .pair{
+  margin: 10px 0;
+}
+
+
+.faq .pair .ask{
+  font-size: 24px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.faq .pair .answer{
+  margin-left: 30px;
+  display: none;
+}
+
+#galery {
+  width: 720px;
+  margin: 0 auto;
+}
+
+#galery .photos {
+  position: relative;
+  height: 670px;
+}
+
+#galery .photos img {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+
+}
+
+#galery .photos img.showed {
+  opacity: 1;
+}
+
+#galery .button {
+  margin: 10px auto;
+}
+
+#galery .button .beck {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#galery .button .forvard {
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+
+footer {
+  background-color: rebeccapurple;
+  text-align: center;
+}
