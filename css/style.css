@@ -10,13 +10,26 @@ body {
 .header {
   background: rebeccapurple;
   border: 2px solid green;
+  display: flex;
+  direction: row;
 }
 
+#loginBtn, #registrBtn {
+  width: 20%;
+  font-size: 20px;
+  text-transform: uppercase;
+}
 .wraper {
   width: 60%;
   margin: auto;
   border: 2px solid red;
   background-color: gainsboro;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 10px;
 }
 
 #galery {
