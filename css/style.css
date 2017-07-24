@@ -1,24 +1,24 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-image: url("../img/ash.jpg");
+    background-image: url("../img/ash.jpg");
 }
 
 .header {
-  background: rebeccapurple;
-  border: 2px solid green;
-  display: flex;
-  direction: row;
+    background: rebeccapurple;
+    border: 2px solid green;
+    display: flex;
+    direction: row;
 }
 
 .dropdown, #loginBtn, #registrBtn {
     width: 100%;
-  font-size: 20px;
-  text-transform: uppercase;
-  background-color: green;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: green;
 }
 
 #loginBtn, #registrBtn {
@@ -47,16 +47,16 @@ body {
 }
 
 .wraper {
-  width: 60%;
-  margin: auto;
-  border: 2px solid red;
-  background-color: gainsboro;
-  text-align: center;
+    width: 60%;
+    margin: auto;
+    border: 2px solid red;
+    background-color: gainsboro;
+    text-align: center;
 }
 
 h1 {
-  text-transform: uppercase;
-  padding: 10px;
+    text-transform: uppercase;
+    padding: 10px;
 }
 
 #galery {
@@ -64,14 +64,24 @@ h1 {
 }
 
 .photos img {
-  width: 100%;
-  display: block;
+    width: 100%;
+    display: block;
 }
 
 footer {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rebeccapurple;
-  text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.bg {
+    position: relative;                         /*??????????????*/
+    background-color: rebeccapurple;
+    opacity: 0.5;
+    height: 100%;
+}
+
+footer textarae {
+    top: 10px;
 }
