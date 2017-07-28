@@ -13,14 +13,11 @@
 
                 <div class="dropdown">
                     <button  id="loginBtn" type="button">login</button>
-                    <div class="dropdown-content">
-                        <form action="/action_page.php">
-                            First name:<br>
-                            <input type="text" name="firstname">
-                                    <br>
-                            Last name:<br>
-                            <input type="text" name="lastname">
-                                    <br><br>
+                    <div class="dropdown-content_login">
+                        <form action=#>
+                            <input type="text" name="login" placeholder="Login...">
+                            <hr />
+                            <input type="password" name="password" placeholder="Password...">
                             <input type="submit" value="Submit">
                         </form> 
                     </div>
@@ -32,23 +29,17 @@
 
                 <div class="dropdown">
                     <button id="registrBtn" type="button">registration</button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content_reg">
                         <form class="formReg" action="/action_page.php">
-                            name:<br>
-                            <input type="text" name="firstname">
-                                    <br>
-                            mail:<br>
-                            <input type="email" name="lastname">
-                                    <br>
-                            phone:<br>
-                            <input type="phone" name="firstname">
-                                    <br>
-                            password:<br>
-                            <input type="text" name="firstname">
-                                    <br>
-                            repeat password:<br>
-                            <input type="text" name="firstname">
-                                    <br><br>
+                            <input type="text" name="firstname" placeholder="nick...">
+                            <hr />
+                            <input type="text" name="lastname" placeholder="...email" style="text-align: right;">
+                            <hr />
+                            <input type="text" name="firstname" placeholder="phone...">
+                            <hr />
+                            <input type="password" name="firstname" placeholder="...password" style="text-align: right;">
+                            <hr />
+                            <input type="password" name="firstname" placeholder="repeat password...">
                             <input type="submit" value="Submit">
                         </form> 
                     </div>

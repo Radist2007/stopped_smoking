@@ -8,8 +8,6 @@ body {
 }
 
 .header {
-    background: rebeccapurple;
-    border: 2px solid green;
     display: flex;
     direction: row;
 }
@@ -18,39 +16,114 @@ body {
     width: 100%;
     font-size: 20px;
     text-transform: uppercase;
-    background-color: green;
+    background-color: #ac6c3e;
+    color: #d1b472;
 }
 
 #loginBtn, #registrBtn {
-
     height: 100%; 
+    border-style: none;
 }
 
 .dropdown {
     position: relative;
     width: 20%;
-     /* display: inline-block;  */
 }
 
-  .dropdown-content {
+.dropdown-content_login {
     display: none;
     position: absolute;
+    left: 10; 
     background-color: #f9f9f9;
     width: 300px;
+    border-radius: 0 0 6px 6px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
     z-index: 1;
+    text-align: center;
+    /* padding-top: 15px; */
+
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-content_login input[type="submit"] {
+    width: 300px;
+    height: 50px;
+    border-style: none;
+    border-radius: 0 0 5px 5px;
+    background-color: green;
+    color: gold;
+    font-size: 20px;
+}
+.dropdown-content_login input[type="text"] {
+    width: 290px;
+    height: 40px;
+    border-style: none;
+    color: gray;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.dropdown-content_login input[type="password"] {
+    width: 290px;
+    height: 40px;
+    border-style: none;
+    color: gray;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.dropdown-content_reg {
+    display: none;
+    position: absolute;
+    right: 0; 
+    background-color: #f9f9f9;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content_reg input[type="submit"] {
+    width: 300px;
+    height: 50px;
+    border-style: none;
+    border-radius: 0 0 5px 5px;
+    background-color: green;
+    color: gold;
+    font-size: 20px;
+}
+.dropdown-content_reg input[type="text"] {
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    color: gray;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dropdown-content_reg input[type="password"] {
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    color: gray;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dropdown:hover .dropdown-content_login  {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content_reg  {
     display: block;
 }
 
 .wraper {
     width: 60%;
     margin: auto;
-    border: 2px solid red;
-    background-color: gainsboro;
+    /* border: 2px solid red; */
+    background-color: #e7e9e6;
     text-align: center;
 }
 
@@ -77,7 +150,7 @@ footer {
 
 .bg {
     position: relative;                         /*??????????????*/
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     opacity: 0.5;
     height: 100%;
 }
